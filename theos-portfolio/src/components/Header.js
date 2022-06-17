@@ -1,6 +1,6 @@
 import React from "react";
-function Header (){
-
+function Header ({ currentPage, handlePageChange }){
+    
 };
 
 export default Header;
