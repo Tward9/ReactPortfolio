@@ -22,7 +22,7 @@ function ContactForm (props) {
 
     return (
         <div>
-             <form className="bucket-form" onSubmit={handleSubmit}>
+             <form className="contact-form" onSubmit={handleSubmit}>
                 <input
                     type="text"
                     placeholder="Email"

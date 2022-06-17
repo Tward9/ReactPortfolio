@@ -6,7 +6,7 @@ export default function About() {
       <h3 id="aboutMe" className="p-2">About Me</h3>
     <section id="bio" className="d-flex justify-content-center">
       <figure className="figure p-2">
-        <img id="aboutMeImg" src="../../aboutmepic.png" className="figure-img img-fluid rounded"
+        <img id="aboutMeImg" src="/aboutmepic.png" className="figure-img img-fluid rounded"
           alt="Me standing infront of the Golden Gate Bridge"/>
         <figcaption className="figure-caption text-end">Visiting the Golden Gate Bridge</figcaption>
       </figure>
