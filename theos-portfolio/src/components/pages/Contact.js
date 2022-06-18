@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 function ContactForm (props) {
-    const [message, setMessage] = useState ();
-    const [email, setEmail] = useState ();
+    const [message, setMessage] = useState ('');
+    const [email, setEmail] = useState ('');
 
     const handleSubmit = (e) => {
         e.preventDefault();
