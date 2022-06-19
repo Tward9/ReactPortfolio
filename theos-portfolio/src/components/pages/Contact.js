@@ -1,12 +1,22 @@
 import React, { useState } from 'react';
+import { validateEmail } from '../../utils/helpers';
 
 function ContactForm(props) {
     const [name, setName] = useState('');
     const [message, setMessage] = useState('');
     const [email, setEmail] = useState('');
+    const [errorMessage, setErrorMessage] = useState('');
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        if (!validateEmail(email)) {
+            setErrorMessage('Please enter a Valid Email');
+            return;
+        }
+        if (!name || !email || !message) {
+            setErrorMessage('All Fields Required!');
+            return;
+        }
         props.onSubmit({
             name: name,
             email: email,
@@ -18,12 +28,24 @@ function ContactForm(props) {
     };
     const handleNameChange = (e) => {
         setName(e.target.value);
+        if (!name) {
+            setErrorMessage('Name Field Required!');
+            return;
+        }
     };
     const handleEmailChange = (e) => {
         setEmail(e.target.value);
+        if (!email) {
+            setErrorMessage('Email Field Required!');
+            return;
+        }
     };
     const handleMessageChange = (e) => {
         setMessage(e.target.value);
+        if (!message) {
+            setErrorMessage('Message Field Required!');
+            return;
+        }
     };
 
     return (
@@ -54,10 +76,15 @@ function ContactForm(props) {
                     name="text"
                     className="bucket-input w-75 mb-3 p-2"
                     onChange={handleMessageChange}
-                    style={{height: 250}}
+                    style={{ height: 250 }}
                 ></textarea>
                 <button className="contact-button w-25">Send</button>
             </form>
+            {errorMessage && (
+                <div>
+                    <p className="error-text">{errorMessage}</p>
+                </div>
+            )}
         </div>
     )
 }
