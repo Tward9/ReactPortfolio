@@ -16,3 +16,35 @@ code {
 .active {
   background-color : #EDD4D1;
 }
+
+.btn-one {
+  background-color: #A19391;
+}
+
+.btn-two {
+  background-color: #EDD4D1;
+}
+
+.bg-project {
+  background-color: #9CA18D;
+}
+
+.btn-one:hover {
+  background-color: #A19391;
+  box-shadow: 2px 2px 5px #EDD4D1;
+}
+
+.btn-two:hover {
+  background-color: #EDD4D1;
+  box-shadow: 2px 2px 5px #A19391;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
