@@ -49,11 +49,11 @@ const Project = () => {
         window.open(url, '_blank', 'noopener,noreferrer');
     };
     return (
-        <div>
-            <h2>Projects</h2>
+        <div className='d-flex flex-column justify-content-around flew-wrap'>
+            <h2 className='d-block text-center w-100'>Projects</h2>
             {
                 ProjectList.map((eachProject) => (
-                    <div key={eachProject.projectName} className="card mb-3">
+                    <div key={eachProject.projectName} className="card mb-3 w-75 d-flex">
                         <h4 className="card-header bg-primary text-light p-2 m-0">
                             {eachProject.projectName}
                         </h4>

@@ -1,7 +1,7 @@
 import React from "react";
 function Header({ currentPage, handlePageChange }) {
     return (
-        <ul className="nav nav-tabs">
+        <ul className="nav nav-tabs" style={{backgroundColor: "#ECEDE9"}}>
             <li className="nav-item">
                 <a
                     href="#About"

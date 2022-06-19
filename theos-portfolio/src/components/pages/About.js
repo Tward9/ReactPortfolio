@@ -1,12 +1,13 @@
 import React from 'react';
+import aboutme from '../../aboutmepic.png'
 
 export default function About() {
   return (
     <div>
       <h3 id="aboutMe" className="p-2">About Me</h3>
     <section id="bio" className="d-flex justify-content-center">
-      <figure className="figure p-2">
-        <img id="aboutMeImg" src="/aboutmepic.png" className="figure-img img-fluid rounded"
+      <figure className="figure p-2 w-25">
+        <img id="aboutMeImg" src={aboutme} className="figure-img img-fluid rounded"
           alt="Me standing infront of the Golden Gate Bridge"/>
         <figcaption className="figure-caption text-end">Visiting the Golden Gate Bridge</figcaption>
       </figure>
