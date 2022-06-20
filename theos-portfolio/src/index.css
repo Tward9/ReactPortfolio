@@ -48,3 +48,15 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+.skillsList {
+  background-color: #EDD4D1;
+  width: 15rem;
+  margin-top: .5rem;
+  padding: .5rem;
+  font-size: 2rem;
+  border-style: ridge;
+  border-width: 5px;
+  border-color: #9CA18D;
+  box-shadow: 4px 4px 5px #ECEDE9;
+}

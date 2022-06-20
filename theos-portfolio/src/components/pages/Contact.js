@@ -78,7 +78,7 @@ function ContactForm(props) {
                     onChange={handleMessageChange}
                     style={{ height: 250 }}
                 ></textarea>
-                <button className="contact-button w-25">Send</button>
+                <button className="contact-button w-25 btn-one">Send</button>
             </form>
             {errorMessage && (
                 <div>

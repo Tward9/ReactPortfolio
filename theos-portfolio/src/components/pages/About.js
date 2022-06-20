@@ -11,16 +11,14 @@ export default function About() {
           alt="Me standing infront of the Golden Gate Bridge"/>
         <figcaption className="figure-caption text-end">Visiting the Golden Gate Bridge</figcaption>
       </figure>
-      <section id="aboutMeParagraph" className="d-flex w-75 p-3 fs-4">
+      <section id="aboutMeParagraph" className="d-flex w-75 p-3 fs-4 flex-wrap">
         <p>
           Hello, and welcome to my portfolio where I will be chronicling my journy from the world of mechanical
           engineering and physical products, to the world of software development. My name is Theo, and while I may be
           new to this for now, I can't wait to continue to sink my teeth into projects like building this portfolio!
         </p>
         <p>
-          Below you can start to look through some of the things I've worked on wither by myself or with other group
-          members from my bootcamp class. I plan to continuing coming back to this page to update the works listed
-          below as my body of work grows and I gain new skills I can implement on these pages themselves.
+          Please look through some of the things I've worked on in the projects Tab! It contains a selection of my work I am curently the most proud of. My favorite right now is the Platters and Pantries app. It lets you search for ingredients or types of food and gives recipe suggestions. You can add these to your personal pantry and grocery lists to keep track of things you need to get from the store.
         </p>
         <p>
           In my time outside of work and class, I'm an avid endurance athlete. I can regularly be found running or

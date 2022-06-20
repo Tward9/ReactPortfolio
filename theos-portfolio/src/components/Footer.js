@@ -29,7 +29,7 @@ function Footer() {
                         <img
                             src={link.image}
                             alt={link.altText}
-                            style={{width: 75, opacity: .5}}
+                            style={{width: 75, opacity: .3}}
                         />
                     </a>
                 ))
