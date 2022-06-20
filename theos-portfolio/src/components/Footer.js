@@ -6,17 +6,17 @@ import StackOverflowLink from '../../StackOverflowLink.png';
 function Footer() {
     const LinkList = [
         {
-            "link": '',
+            "link": 'https://github.com/Tward9',
             'image': GithubLink,
             'altText': 'Github Logo Link to Profile',
         },
         {
-            "link": '',
+            "link": 'https://www.linkedin.com/in/theodore-ward-ba3a80b4/',
             'image': LinkedInLink,
             'altText': 'LinkedIn Logo Link to Profile',
         },
         {
-            "link": '',
+            "link": 'https://stackoverflow.com/users/17845614/tward9',
             'image': StackOverflowLink,
             'altText': 'Stack Overflow Logo Link to Profile',
         }
