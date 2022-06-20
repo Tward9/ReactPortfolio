@@ -1,7 +1,7 @@
 import React from "react";
-import GithubLink from "../../githubLink.png";
-import LinkedInLink from '../../linkedInLogo.png';
-import StackOverflowLink from '../../StackOverflowLink.png';
+import GithubLink from "../githubLink.png";
+import LinkedInLink from '../linkedInLogo.png';
+import StackOverflowLink from '../StackOverflowLink.png';
 
 function Footer() {
     const LinkList = [
@@ -22,13 +22,14 @@ function Footer() {
         }
     ]
     return (
-        <div>
+        <div className="d-flex w-50 mx-auto p-2" style={{justifyContent: 'space-around'}}>
             {
                 LinkList.map((link) => (
                     <a href={link.link} target="_blank" rel="noreferrer">
                         <img
                             src={link.image}
                             alt={link.altText}
+                            style={{width: 75, opacity: .5}}
                         />
                     </a>
                 ))
