@@ -5,10 +5,23 @@ import EComm from '../../ECommBackEnd.png';
 import Employee from '../../MakeSelection.png';
 import MongoBack from '../../applicationRoutes.png';
 import LocalApp from '../../LocalApplication.png';
+import diveBuddy from '../../diveBuddy.png'
 
 
 const Project = () => {
     const ProjectList = [
+        {
+            "projectName": "Dive Buddy",
+            "projectDescription": `Dive Buddy is an application that calculates different stats for divers, a convenient alternative to filling out paper forms. On this application a user can create an account, review and update their dashboard, and view a feed that includes other registered users.
+            
+            Once a diver has created an account they can start filling dive logs. All of their completed dive logs can then be found under the “dashboard” feature of the application. The dive log presents the user with the needed fields for the app to calculate pressure used, pressure at depth, total nitrogen time, ending letter group, next residual nitrogen, next start letter, next max diving time, etc. 
+            
+            Our application can also be used as a dedicated social media platform for divers. People who dive with friends and family can add each other as “dive buddies”. When a diver creates an account they are given an ID number. Users can add friends by exchanging these IDs. All the users they add are then displayed on their personalized “feed” page.
+            Are you ready to dive in?`,
+            "projectImage": diveBuddy,
+            "projectRepo": "https://github.com/P3-sharkBait/diveBuddy",
+            "projectLink": "https://dive-buddy-app.herokuapp.com/",
+        },
         {
             "projectName": "Patters and Pantries",
             "projectDescription": "This application lets the user search for recipes and ingredients before saving ingredient lists to their unique pantry and grocery lists. Users can move items between the lists as they purchase items or run out of items, as well as view saved recipes, saved ingredients, and add individual items to their lists manually.",
