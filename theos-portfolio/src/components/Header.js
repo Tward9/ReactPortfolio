@@ -21,10 +21,10 @@ function Header({ currentPage, handlePageChange }) {
         }
     ]
     return (
-        <div style={{ backgroundColor: "#ECEDE9" }} className='header'>
-            <h2 className="p-1 mx-3 my-1" style={{ backgroundColor: "#ECEDE9" }}>Theo Ward</h2>
-            <h6 className="p-1 mx-1 mb-1" style={{ backgroundColor: "#ECEDE9" }}>Welcome to my portfolio!</h6>
-            <ul className="block nav nav-tabs" style={{ backgroundColor: "#ECEDE9" }}>
+        <div style={{ backgroundColor: "#F9FAF5" }} className='header'>
+            <h2 className="p-1 mx-3 my-1" style={{ backgroundColor: "#F9FAF5" }}>Theo Ward</h2>
+            <h6 className="p-1 mx-1 mb-1" style={{ backgroundColor: "#F9FAF5" }}>Welcome to my portfolio!</h6>
+            <ul className="block nav nav-tabs" style={{ backgroundColor: "#F9FAF5" }}>
                 <li className="nav-item ">
                     <a
                         href="#About"
@@ -64,7 +64,7 @@ function Header({ currentPage, handlePageChange }) {
             </ul>
             {
                 LinkList.map((link) => (
-                    <a href={link.link} target="_blank" rel="noreferrer" className="center">
+                    <a href={link.link} target="_blank" rel="noreferrer" className="centerLink">
                         <img
                             src={link.image}
                             alt={link.altText}

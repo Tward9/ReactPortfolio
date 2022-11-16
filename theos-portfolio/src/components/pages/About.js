@@ -3,7 +3,7 @@ import aboutme from '../../aboutmepic.png'
 
 export default function About() {
   return (
-    <div className='relative'>
+    <div className='relativeAbout'>
       {/* eslint-disable-next-line */}
       <h3 id="aboutMe" className="p-2"></h3>
       <section id="bio" className="d-flex justify-content-center">

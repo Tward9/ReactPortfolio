@@ -1,5 +1,5 @@
 body {
-  background-color: #D1DCED;
+  background-color: #ECEDE9;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -75,14 +75,18 @@ img {
 }
 
 .relative {
-  position: relative;
-  left: 100px;
+  position: absolute;
+  left: 4rem;
+  z-index: -1;
+  width: 100vw;
 }
 .relativeAbout {
-  position: relative;
-  left: 100px;
+  position: absolute;
+  left: 1rem;
+  z-index: -1;
+
 }
-.center {
+.centerLink {
   margin-left: 20px;
 }
 @media only screen and (max-width: 750px) {
@@ -105,7 +109,7 @@ img {
   .block {
     display: flex;
   }
-  .center {
+  .centerlink {
     margin-left: 60px;
   }
 }
