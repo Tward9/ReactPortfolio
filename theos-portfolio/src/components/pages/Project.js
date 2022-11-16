@@ -24,7 +24,13 @@ const Project = () => {
         },
         {
             "projectName": "Patters and Pantries",
-            "projectDescription": "This application lets the user search for recipes and ingredients before saving ingredient lists to their unique pantry and grocery lists. Users can move items between the lists as they purchase items or run out of items, as well as view saved recipes, saved ingredients, and add individual items to their lists manually.",
+            "projectDescription": `What's for dinner? Yeah, it's just one of those questions that chases every answer from your mind. Eating out is expensive and gas prices are even worse, so eating in is probably a good idea. But what? You know you have a few things in your pantry. Wouldn't it be great if you could search thousands of delicious recipes based on ingredients you already have and create a convenient grocery list from there?
+
+            Now the Platters & Pantries application allows you to just that, and with a personalized updatable pantry for planning future meals!
+            
+            Your palate and budget will thank you!
+            
+            `,
             "projectImage": Platters,
             "projectRepo": "https://github.com/Pleasant-Pantry-Professionals/Platters-and-Pantries",
             "projectLink": "https://platters-and-pantries.herokuapp.com/",

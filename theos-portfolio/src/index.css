@@ -60,3 +60,16 @@ img {
   border-color: #9CA18D;
   box-shadow: 4px 4px 5px #ECEDE9;
 }
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 225px;
+  height: 100%;
+  padding: 20px 0;
+}
+
+.block {
+  display: block;
+}
