@@ -75,23 +75,23 @@ const Project = () => {
         window.open(url, '_blank', 'noopener,noreferrer');
     };
     return (
-        <div className='d-flex flex-column'>
+        <div className=' d-flex flex-column'>
             <h2 className='d-block text-center w-100'>Projects</h2>
             {
                 ProjectList.map((eachProject) => (
-                    <div key={eachProject.projectName} className="card mb-3 w-75 d-flex center" style={{justifyContent: 'center'}}>
+                    <div key={eachProject.projectName} className="card mb-3 w-75 d-flex center" style={{ justifyContent: 'center' }}>
                         <h4 className="card-header bg-project text-light p-2 m-0">
                             {eachProject.projectName}
                         </h4>
                         <div className="card-body p-2">
-                            <img className='w-50 d-block' src={eachProject.projectImage} alt={eachProject.projectName} style={{textAlign: 'center'}} />
+                            <img className='w-50 d-block' src={eachProject.projectImage} alt={eachProject.projectName} style={{ textAlign: 'center' }} />
                             <p>{eachProject.projectDescription}</p>
                         </div>
                         <button className='btn btn-one mb-3' onClick={() => openInNewTab(eachProject.projectRepo)}>
-                        View Github Repository
+                            View Github Repository
                         </button>
                         <button className='btn btn-two' onClick={() => openInNewTab(eachProject.projectLink)}>
-                        View Application Demo
+                            View Application Demo
                         </button>
                     </div>
                 ))

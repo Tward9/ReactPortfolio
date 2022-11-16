@@ -4,7 +4,7 @@ import Project from './Project'
 export default function Portfolio() {
     return (
         <main>
-          <div className="">
+          <div className="relative">
             <div className="my-3">
                 <Project
                 />

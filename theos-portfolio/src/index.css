@@ -66,10 +66,46 @@ img {
   top: 0;
   left: 0;
   width: 225px;
-  height: 100%;
+  height: 100vh;
   padding: 20px 0;
 }
 
 .block {
   display: block;
+}
+
+.relative {
+  position: relative;
+  left: 100px;
+}
+.relativeAbout {
+  position: relative;
+  left: 100px;
+}
+.center {
+  margin-left: 20px;
+}
+@media only screen and (max-width: 750px) {
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    height: 25px;
+    padding: 0;
+    margin: 0;
+  }
+  .relative {
+    display: block;
+    left: 0px;
+    top: 9rem;
+    z-index: -1;
+  }
+  .block {
+    display: flex;
+  }
+  .center {
+    margin-left: 60px;
+  }
 }

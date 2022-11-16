@@ -3,15 +3,16 @@ import aboutme from '../../aboutmepic.png'
 
 export default function About() {
   return (
-    <div className='block'>
-      <h3 id="aboutMe" className="p-2 block">About Me</h3>
+    <div className='relative'>
+      {/* eslint-disable-next-line */}
+      <h3 id="aboutMe" className="p-2"></h3>
       <section id="bio" className="d-flex justify-content-center">
         <figure className="figure p-2 w-25">
           <img id="aboutMeImg" src={aboutme} className="figure-img img-fluid rounded"
             alt="Me standing infront of the Golden Gate Bridge" />
           <figcaption className="figure-caption text-end">Visiting the Golden Gate Bridge</figcaption>
         </figure>
-        <section id="aboutMeParagraph" className="d-flex w-75 p-3 fs-4 flex-wrap">
+        <section id="aboutMeParagraph" className="d-flex w-50 p-3 fs-4 flex-wrap">
           <p>
             Hello, and welcome to my portfolio where I will be chronicling my journy from the world of mechanical
             engineering and physical products, to the world of software development. My name is Theo, and while I may be

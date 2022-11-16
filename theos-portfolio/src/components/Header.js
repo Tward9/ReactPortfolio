@@ -1,5 +1,25 @@
 import React from "react";
+import GithubLink from "../githubLink.png";
+import LinkedInLink from '../linkedInLogo.png';
+import StackOverflowLink from '../StackOverflowLink.png';
 function Header({ currentPage, handlePageChange }) {
+    const LinkList = [
+        {
+            "link": 'https://github.com/Tward9',
+            'image': GithubLink,
+            'altText': 'Github Logo Link to Profile',
+        },
+        {
+            "link": 'https://www.linkedin.com/in/theodore-ward-ba3a80b4/',
+            'image': LinkedInLink,
+            'altText': 'LinkedIn Logo Link to Profile',
+        },
+        {
+            "link": 'https://stackoverflow.com/users/17845614/tward9',
+            'image': StackOverflowLink,
+            'altText': 'Stack Overflow Logo Link to Profile',
+        }
+    ]
     return (
         <div style={{ backgroundColor: "#ECEDE9" }} className='header'>
             <h2 className="p-1 mx-3 my-1" style={{ backgroundColor: "#ECEDE9" }}>Theo Ward</h2>
@@ -42,6 +62,17 @@ function Header({ currentPage, handlePageChange }) {
                     </a>
                 </li>
             </ul>
+            {
+                LinkList.map((link) => (
+                    <a href={link.link} target="_blank" rel="noreferrer" className="center">
+                        <img
+                            src={link.image}
+                            alt={link.altText}
+                            style={{width: 50, padding: 5, opacity: .4}}
+                        />
+                    </a>
+                ))
+            }
         </div>
     )
 };
