@@ -68,7 +68,9 @@ code {
   border-color: #9CA18D;
   box-shadow: 4px 4px 5px #ECEDE9;
 }
-
+.listCenter{
+  margin-left: 43%;
+}
 .header {
   position: fixed;
   top: 0;
@@ -96,6 +98,10 @@ code {
 }
 .centerLink {
   margin-left: 20px;
+}
+.left {
+  margin-left: 1rem;
+  text-align: center;
 }
 @media only screen and (max-width: 750px) {
   .header {
