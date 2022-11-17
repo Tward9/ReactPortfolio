@@ -2,6 +2,8 @@ import React from "react";
 import GithubLink from "../githubLink.png";
 import LinkedInLink from '../linkedInLogo.png';
 import StackOverflowLink from '../StackOverflowLink.png';
+import MyResume from '../TheodoreWardResume.pdf';
+
 function Header({ currentPage, handlePageChange }) {
     const LinkList = [
         {
@@ -49,7 +51,7 @@ function Header({ currentPage, handlePageChange }) {
                         onClick={() => handlePageChange('Resume')}
                         className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
                     >
-                        Resume
+                        Skills and Background
                     </a>
                 </li>
                 <li className="nav-item ">
@@ -73,6 +75,9 @@ function Header({ currentPage, handlePageChange }) {
                     </a>
                 ))
             }
+            <a href={MyResume} download="TheodoreWardResume" target='_blank' rel='noreferrer' className='d-block w-100 '>
+                <button className='btn btn-one m-3 p-2'>Download My Resume</button>
+            </a>
         </div>
     )
 };

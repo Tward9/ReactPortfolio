@@ -18,7 +18,7 @@ code {
 }
 
 .btn-one {
-  background-color: #A19391;
+  background-color: #FDF9E3;
 }
 
 .btn-two {
@@ -30,8 +30,8 @@ code {
 }
 
 .btn-one:hover {
-  background-color: #A19391;
-  box-shadow: 2px 2px 5px #EDD4D1;
+  background-color: #E6FDE3;
+  box-shadow: 2px 2px 5px #D6E3CC;
 }
 
 .btn-two:hover {
@@ -48,7 +48,9 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-
+.buttonCenter{
+  margin-left: 45%;
+}
 .skillsList {
   background-color: #EDD4D1;
   width: 15rem;
