@@ -1,11 +1,11 @@
 import React from 'react';
-import Platters from '../../plattersAndPantries.png';
-import OneFish from '../../OneFishTwoFishApp.png';
-import EComm from '../../ECommBackEnd.png';
-import Employee from '../../MakeSelection.png';
-import MongoBack from '../../applicationRoutes.png';
-import LocalApp from '../../LocalApplication.png';
-import diveBuddy from '../../diveBuddy.png'
+import Platters from '../../projectImages/plattersAndPantries.png';
+import OneFish from '../../projectImages/OneFishTwoFishApp.png';
+import EComm from '../../projectImages/ECommBackEnd.png';
+import Employee from '../../projectImages/MakeSelection.png';
+import MongoBack from '../../projectImages/applicationRoutes.png';
+import LocalApp from '../../projectImages/LocalApplication.png';
+import diveBuddy from '../../projectImages/diveBuddy.png'
 
 
 const Project = () => {
@@ -84,7 +84,7 @@ const Project = () => {
                             {eachProject.projectName}
                         </h4>
                         <div className="card-body p-2">
-                            <img className='w-50 d-block' src={eachProject.projectImage} alt={eachProject.projectName} style={{ textAlign: 'center' }} />
+                            <img className='w-50 d-block imageCenter' src={eachProject.projectImage} alt={eachProject.projectName} style={{ textAlign: 'center' }} />
                             <p>{eachProject.projectDescription}</p>
                         </div>
                         <button className='btn btn-one mb-3' onClick={() => openInNewTab(eachProject.projectRepo)}>

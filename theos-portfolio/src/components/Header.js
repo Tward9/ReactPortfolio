@@ -1,7 +1,7 @@
 import React from "react";
-import GithubLink from "../githubLink.png";
-import LinkedInLink from '../linkedInLogo.png';
-import StackOverflowLink from '../StackOverflowLink.png';
+import GithubLink from "../linkImages/githubLink.png";
+import LinkedInLink from '../linkImages/linkedInLogo.png';
+import StackOverflowLink from '../linkImages/StackOverflowLink.png';
 import MyResume from '../TheodoreWardResume.pdf';
 
 function Header({ currentPage, handlePageChange }) {

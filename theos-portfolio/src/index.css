@@ -33,7 +33,10 @@ code {
   background-color: #E6FDE3;
   box-shadow: 2px 2px 5px #D6E3CC;
 }
-
+.imageCenter{
+  margin-left: auto;
+  margin-right: auto;
+}
 .btn-two:hover {
   background-color: #EDD4D1;
   box-shadow: 2px 2px 5px #A19391;

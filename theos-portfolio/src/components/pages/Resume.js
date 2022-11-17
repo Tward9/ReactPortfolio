@@ -1,5 +1,5 @@
 import React from 'react';
-import javascriptIcon from '../../JavaScript-logo.png'
+import javascriptIcon from '../../skillsImages/JavaScript-logo.png'
 export default function Resume() {
     return (
         <div className='d-flex mt-5 flex-wrap'>
