@@ -12,7 +12,7 @@ import sqlIcon from '../../skillsImages/sql-logo.png';
 export default function Resume() {
     return (
         <div className='d-flex mt-5 flex-wrap'>
-            <h2 className=' listCenter w-100'>
+            <h2 className=' buttonCenter w-100'>
                 Skills Proficiencies!
             </h2>
             <ul className='listCenter d-flex' style={{ listStyleType: 'none' }}>
