@@ -70,7 +70,8 @@ function Header({ currentPage, handlePageChange }) {
                         <img
                             src={link.image}
                             alt={link.altText}
-                            style={{width: 50, padding: 5, opacity: .4}}
+                            style={{width: 50, padding: 5, opacity: .4,}}
+                            className='aboutImg'
                         />
                     </a>
                 ))

@@ -1,13 +1,20 @@
 import React from 'react';
-
+import javascriptIcon from '../../JavaScript-logo.png'
 export default function Resume() {
     return (
-        <div className='d-flex flex-wrap'>
+        <div className='d-flex mt-5 flex-wrap'>
             <h2 className=' text-center w-100'>
                 Skills Proficiencies!
             </h2>
-            <ul className='d-flex  flex-wrap justify-content-center' style={{ listStyleType: 'none' }}>
-
+            <ul className='buttonCenter' style={{ listStyleType: 'none' }}>
+                <li>
+                    <figure className='w-25'>
+                        <img className='figure-img roundImgSkill' id='javascriptIcon' src={javascriptIcon} alt='Javascript Icon, a J and S cutout of a yello block'/>
+                        <figcaption>
+                            Javascript
+                        </figcaption>
+                    </figure>
+                </li>
                 {/* <li className='skillsList text-center'>HTML</li>
                 <li className='skillsList'>
                     Javascript

@@ -3,14 +3,14 @@ import aboutme from '../../aboutmepic.png'
 
 export default function About() {
   return (
-    <div className='relativeAbout'>
+    <div className='relativeAbout mt-3'>
       {/* eslint-disable-next-line */}
       <h3 id="aboutMe" className="p-2"></h3>
       <section id="bio" className="d-flex justify-content-center">
         <figure className="figure p-2 w-25">
-          <img id="aboutMeImg" src={aboutme} className="figure-img img-fluid rounded"
+          <img id="aboutMeImg" src={aboutme} className=" aboutImg figure-img img-fluid "
             alt="Me standing infront of the Golden Gate Bridge" />
-          <figcaption className="figure-caption text-end">Visiting the Golden Gate Bridge</figcaption>
+          <figcaption className="figure-caption text-center">Visiting the Golden Gate Bridge</figcaption>
         </figure>
         <section id="aboutMeParagraph" className="d-flex w-50 p-3 fs-4 flex-wrap">
           <p>
