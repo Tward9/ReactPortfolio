@@ -2,7 +2,8 @@ import React from 'react';
 import javascriptIcon from '../../skillsImages/JavaScript-logo.png';
 import reactIcon from '../../skillsImages/react-logo.svg';
 import nodeIcon from '../../skillsImages/node-logo.png';
-import htmlIcon from '../../skillsImages/html-logo.png'
+import htmlIcon from '../../skillsImages/html-logo.png';
+import graphqlIcon from '../../skillsImages/graphql-logo.png';
 export default function Resume() {
     return (
         <div className='d-flex mt-5 flex-wrap'>
@@ -23,6 +24,14 @@ export default function Resume() {
                         <img className='figure-img roundImgSkill' id='reactIcon' src={reactIcon} alt='React Icon, a blue Fbolt' />
                         <figcaption className='left'>
                             React
+                        </figcaption>
+                    </figure>
+                </li>
+                <li className='px-2'>
+                    <figure className='w-25'>
+                        <img className='figure-img roundImgSkill' id='reactIcon' src={graphqlIcon} alt='GraphQL Icon, a pink triangle inside a hexigon with circles at the virtices' />
+                        <figcaption className=''>
+                            GraphQL
                         </figcaption>
                     </figure>
                 </li>

@@ -24,7 +24,7 @@ function Header({ currentPage, handlePageChange }) {
     ]
     return (
         <div style={{ backgroundColor: "#F9FAF5" }} className='header'>
-            <h2 className="p-1 mx-3 my-1" style={{ backgroundColor: "#F9FAF5" }}>Theo Ward</h2>
+            <h2 className="p-1 mx-3 mt-4 my-1" style={{ backgroundColor: "#F9FAF5" }}>Theo Ward</h2>
             <h6 className="p-1 mx-1 mb-1" style={{ backgroundColor: "#F9FAF5" }}>Welcome to my portfolio!</h6>
             <ul className="block nav nav-tabs" style={{ backgroundColor: "#F9FAF5" }}>
                 <li className="nav-item ">
