@@ -4,6 +4,7 @@ import reactIcon from '../../skillsImages/react-logo.svg';
 import nodeIcon from '../../skillsImages/node-logo.png';
 import htmlIcon from '../../skillsImages/html-logo.png';
 import graphqlIcon from '../../skillsImages/graphql-logo.png';
+import restIcon from '../../skillsImages/restapi-logo.jpeg';
 export default function Resume() {
     return (
         <div className='d-flex mt-5 flex-wrap'>
@@ -81,6 +82,14 @@ export default function Resume() {
                     <figure className='w-25'>
                         <img className='figure-img roundImgSkill' id='reactIcon' src={htmlIcon} alt='HTML Icon, a red shield with a 5 in the center' />
                         <figcaption className='left'>
+                            HTML
+                        </figcaption>
+                    </figure>
+                </li>
+                <li className='px-1'>
+                    <figure className='w-25'>
+                        <img className='figure-img roundImgSkill' id='reactIcon' src={restIcon} alt='REST API Icon, a a cloud with a gear in it' />
+                        <figcaption className='left px-2'>
                             HTML
                         </figcaption>
                     </figure>
