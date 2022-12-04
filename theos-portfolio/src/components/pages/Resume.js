@@ -16,7 +16,7 @@ export default function Resume() {
                 Skills Proficiencies!
             </h2>
             <ul className='listCenter d-flex' style={{ listStyleType: 'none' }}>
-                <li className='px-2'>
+                <li className='px-3'>
                     <figure className='w-25'>
                         <img className='figure-img roundImgSkill' id='javascriptIcon' src={javascriptIcon} alt='Javascript Icon, a J and S cutout of a yello block' />
                         <figcaption>
@@ -24,7 +24,7 @@ export default function Resume() {
                         </figcaption>
                     </figure>
                 </li>
-                <li className='px-2'>
+                <li className='px-3'>
                     <figure className='w-25'>
                         <img className='figure-img roundImgSkill' id='reactIcon' src={reactIcon} alt='React Icon, a blue Fbolt' />
                         <figcaption className='left'>
@@ -32,7 +32,7 @@ export default function Resume() {
                         </figcaption>
                     </figure>
                 </li>
-                <li className='px-2'>
+                <li className='px-3'>
                     <figure className='w-25'>
                         <img className='figure-img roundImgSkill' id='reactIcon' src={graphqlIcon} alt='GraphQL Icon, a pink triangle inside a hexigon with circles at the virtices' />
                         <figcaption className=''>
@@ -40,25 +40,25 @@ export default function Resume() {
                         </figcaption>
                     </figure>
                 </li>
-                <li className='px-2'>
+                <li className='px-3'>
                     <figure className='w-25'>
                         <img className='figure-img roundImgSkill' id='reactIcon' src={sqlIcon} alt='sqL Icon, a blue cylinder' />
-                        <figcaption className=''>
+                        <figcaption className='padding'>
                             SQL
                         </figcaption>
                     </figure>
                 </li>
-                <li className='px-2'>
+                <li className='px-3'>
                     <figure className='w-25'>
                         <img className='figure-img roundImgSkill' id='reactIcon' src={mongoDBIcon} alt='MongoDB Icon, a leaf' />
-                        <figcaption className=''>
+                        <figcaption className='padding'>
                             MongoDB
                         </figcaption>
                     </figure>
                 </li>
             </ul>
             <ul className='listCenter d-flex' style={{ listStyleType: 'none' }}>
-                <li className='px-2'>
+                <li className='px-3'>
                     <figure className='w-25'>
                         <img className='figure-img roundImgSkill' id='nodeIcon' src={nodeIcon} alt='Node Icon, a J and S inside a green hexagon' />
                         <figcaption className='left'>
@@ -82,7 +82,7 @@ export default function Resume() {
                         </figcaption>
                     </figure>
                 </li>
-                <li className='px-1'>
+                <li className='px-3'>
                     <figure className='w-25'>
                         <img className='figure-img roundImgSkill' id='reactIcon' src={restIcon} alt='REST API Icon, a a cloud with a gear in it' />
                         <figcaption className='left px-2'>

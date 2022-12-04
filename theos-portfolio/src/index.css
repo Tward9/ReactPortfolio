@@ -103,6 +103,9 @@ code {
   margin-left: 1rem;
   text-align: center;
 }
+.padding{
+  padding-left: 1rem;
+}
 @media only screen and (max-width: 750px) {
   .header {
     position: fixed;
