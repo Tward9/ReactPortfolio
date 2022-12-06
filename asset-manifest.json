@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.243e32ce.css",
-    "main.js": "/ReactPortfolio/static/js/main.f9de2803.js",
+    "main.css": "/ReactPortfolio/static/css/main.5be24ccc.css",
+    "main.js": "/ReactPortfolio/static/js/main.3ee44323.js",
     "static/media/diveBuddy.png": "/ReactPortfolio/static/media/diveBuddy.a1e1ddb173e5ddfa8800.png",
     "static/media/aboutmepic.png": "/ReactPortfolio/static/media/aboutmepic.d00452aedd04e1429f2d.png",
     "static/media/OneFishTwoFishApp.png": "/ReactPortfolio/static/media/OneFishTwoFishApp.4feb0218bf22482c82e8.png",
@@ -24,11 +24,11 @@
     "static/media/JavaScript-logo.png": "/ReactPortfolio/static/media/JavaScript-logo.266bd9fb2663dcc057b4.png",
     "static/media/react-logo.svg": "/ReactPortfolio/static/media/react-logo.011e7c1df86b45faf46cd92fe47d6bbd.svg",
     "index.html": "/ReactPortfolio/index.html",
-    "main.243e32ce.css.map": "/ReactPortfolio/static/css/main.243e32ce.css.map",
-    "main.f9de2803.js.map": "/ReactPortfolio/static/js/main.f9de2803.js.map"
+    "main.5be24ccc.css.map": "/ReactPortfolio/static/css/main.5be24ccc.css.map",
+    "main.3ee44323.js.map": "/ReactPortfolio/static/js/main.3ee44323.js.map"
   },
   "entrypoints": [
-    "static/css/main.243e32ce.css",
-    "static/js/main.f9de2803.js"
+    "static/css/main.5be24ccc.css",
+    "static/js/main.3ee44323.js"
   ]
 }
