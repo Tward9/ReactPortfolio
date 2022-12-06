@@ -121,10 +121,11 @@ export default function Resume() {
                     </li>
                 </ul>
             </div>
+            <h3 className='background w-100'>
+                Background and Experience
+            </h3>
             <div className='education'>
-                <h3 className='background w-100'>
-                    Background and Experience
-                </h3>
+                <h5>Education</h5>
                 <div className='d-flex flex-wrap'>
                     <h6 className='width50'>Northwestern University Full Stack Bootcamp</h6>
                     <p className='width50'>
@@ -139,8 +140,29 @@ export default function Resume() {
                     <p className='width50'>
                         September 2014 - June 2018
                     </p>
-                    <p>
+                    <p className='pb-3'>
                         Bachelors of Science in Mechanical Engineering
+                    </p>
+                </div>
+            </div>
+            <div className='education'>
+                <h5>Experience</h5>
+                <div className='d-flex flex-wrap'>
+                    <h6 className='width50'>Project Manager</h6>
+                    <h6 className='width50'>
+                        May 2019 - Current
+                    </h6>
+                    <p className='pb-3'>
+                        Underwriter's Laboratories 
+                    </p>
+                </div>
+                <div className='d-flex flex-wrap'>
+                    <h6 className='width50'>Software Engineer</h6>
+                    <h6 className='width50'>
+                        January 2018 - October 2018
+                    </h6>
+                    <p>
+                        Northwestern University
                     </p>
                 </div>
             </div>
