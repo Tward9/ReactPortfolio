@@ -129,6 +129,9 @@ code {
 .education{
   margin-left: 30rem;
 }
+.contact{
+  margin-left: 30rem;
+}
 @media only screen and (max-width: 750px) {
   .header {
     position: fixed;

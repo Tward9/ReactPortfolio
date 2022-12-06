@@ -49,8 +49,8 @@ function ContactForm(props) {
     };
 
     return (
-        <div className='center'>
-            <h2 className='d-block text-center w-100 mt-2'>Please reach out!</h2>
+        <div className='contact'>
+            <h2 className='d-block w-100 mt-2'>Please reach out!</h2>
 
             <form className="contact-form d-flex flex-column mx-2" onSubmit={handleSubmit}>
                 <input
