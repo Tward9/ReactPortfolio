@@ -116,9 +116,18 @@ code {
 .mongo{
   margin-left: -.5rem;
 }
+.background{
+  margin-left: 22.5%;
+}
+.width50{
+  width: 50%;
+}
 .rest{
   margin-left: 1.75rem;
   text-align: center;
+}
+.education{
+  margin-left: 30rem;
 }
 @media only screen and (max-width: 750px) {
   .header {

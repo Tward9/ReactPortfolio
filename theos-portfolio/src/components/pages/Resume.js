@@ -121,6 +121,29 @@ export default function Resume() {
                     </li>
                 </ul>
             </div>
+            <div className='education'>
+                <h3 className='background w-100'>
+                    Background and Experience
+                </h3>
+                <div className='d-flex flex-wrap'>
+                    <h6 className='width50'>Northwestern University Full Stack Bootcamp</h6>
+                    <p className='width50'>
+                        January 2022 - July 2022
+                    </p>
+                    <p className='pb-3'>
+                        Full Stack Web Development Certificate
+                    </p>
+                </div>
+                <div className='d-flex flex-wrap'>
+                    <h6 className='width50'>Northwestern University</h6>
+                    <p className='width50'>
+                        September 2014 - June 2018
+                    </p>
+                    <p>
+                        Bachelors of Science in Mechanical Engineering
+                    </p>
+                </div>
+            </div>
         </>
     )
 }
