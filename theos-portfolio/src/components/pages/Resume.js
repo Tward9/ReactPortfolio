@@ -11,114 +11,116 @@ import pythonIcon from '../../skillsImages/phyton-logo.jpeg';
 import sqlIcon from '../../skillsImages/sql-logo.png';
 export default function Resume() {
     return (
-        <div className='d-flex mt-5 flex-wrap'>
-            <h2 className=' buttonCenter w-100'>
-                Skills Proficiencies!
-            </h2>
-            <ul className='listCenter d-flex' style={{ listStyleType: 'none' }}>
-                <li className='px-3'>
-                    <div className='space'>
-                        <figure className='w-25'>
-                            <img className='figure-img roundImgSkill' id='javascriptIcon' src={javascriptIcon} alt='Javascript Icon, a J and S cutout of a yello block' />
-                            <figcaption>
-                                Javascript
-                            </figcaption>
-                        </figure>
-                    </div>
-                </li>
-                <li className='px-3'>
-                    <div className='space'>
-                        <figure className='w-25'>
-                            <img className='figure-img roundImgSkill' id='reactIcon' src={reactIcon} alt='React Icon, a blue Fbolt' />
-                            <figcaption className='left'>
-                                React
-                            </figcaption>
-                        </figure>
-                    </div>
-                </li>
-                <li className='px-3'>
-                    <div className='space'>
-                        <figure className='w-25'>
-                            <img className='figure-img roundImgSkill' id='reactIcon' src={graphqlIcon} alt='GraphQL Icon, a pink triangle inside a hexigon with circles at the virtices' />
-                            <figcaption className=''>
-                                GraphQL
-                            </figcaption>
-                        </figure>
-                    </div>
-                </li>
-                <li className='px-3'>
-                    <div className='space'>
-                        <figure className='w-25'>
-                            <img className='figure-img roundImgSkill' id='reactIcon' src={sqlIcon} alt='sqL Icon, a blue cylinder' />
-                            <figcaption className='padding'>
-                                SQL
-                            </figcaption>
-                        </figure>
-                    </div>
-                </li>
-                <li className='mongo'>
-                    <div className='space'>
-                        <figure className='w-25'>
-                            <img className='figure-img roundImgSkill' id='reactIcon' src={mongoDBIcon} alt='MongoDB Icon, a leaf' />
-                            <figcaption className='padding'>
-                                MongoDB
-                            </figcaption>
-                        </figure>
-                    </div>
-                </li>
-            </ul>
-            <ul className='listCenter d-flex' style={{ listStyleType: 'none' }}>
-                <li className='px-3'>
-                    <div className='space'>
-                        <figure className='w-25'>
-                            <img className='figure-img roundImgSkill' id='nodeIcon' src={nodeIcon} alt='Node Icon, a J and S inside a green hexagon' />
-                            <figcaption className='left'>
-                                Node
-                            </figcaption>
-                        </figure>
-                    </div>
-                </li>
-                <li className='px-3'>
-                    <div className='space'>
-                        <figure className='w-25'>
-                            <img className='figure-img roundImgSkill' id='reactIcon' src={htmlIcon} alt='HTML Icon, a red shield with a 5 in the center' />
-                            <figcaption className='left'>
-                                HTML
-                            </figcaption>
-                        </figure>
-                    </div>
-                </li>
-                <li className='px-3'>
-                    <div className='space'>
-                        <figure className='w-25'>
-                            <img className='figure-img roundImgSkill' id='reactIcon' src={cssIcon} alt='css Icon, a blue shield with a 3 in the center' />
-                            <figcaption className='left'>
-                                CSS
-                            </figcaption>
-                        </figure>
-                    </div>
-                </li>
-                <li className=''>
-                    <div className='space'>
-                        <figure className='w-25'>
-                            <img className='figure-img roundImgSkill' id='reactIcon' src={restIcon} alt='REST API Icon, a a cloud with a gear in it' />
-                            <figcaption className='rest'>
-                                REST
-                            </figcaption>
-                        </figure>
-                    </div>
-                </li>
-                <li className='python'>
-                    <div className='space'>
-                        <figure className='w-25'>
-                            <img className='figure-img roundImgSkill' id='reactIcon' src={pythonIcon} alt='Python Icon, a blue and yellow snake that form a plus' />
-                            <figcaption className='left'>
-                                Python
-                            </figcaption>
-                        </figure>
-                    </div>
-                </li>
-            </ul>
-        </div>
+        <>
+            <div className='d-flex mt-5 flex-wrap'>
+                <h2 className=' buttonCenter w-100'>
+                    Skills Proficiencies!
+                </h2>
+                <ul className='listCenter d-flex' style={{ listStyleType: 'none' }}>
+                    <li className='px-3'>
+                        <div className='space'>
+                            <figure className='w-25'>
+                                <img className='figure-img roundImgSkill' id='javascriptIcon' src={javascriptIcon} alt='Javascript Icon, a J and S cutout of a yello block' />
+                                <figcaption>
+                                    Javascript
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </li>
+                    <li className='px-3'>
+                        <div className='space'>
+                            <figure className='w-25'>
+                                <img className='figure-img roundImgSkill' id='reactIcon' src={reactIcon} alt='React Icon, a blue Fbolt' />
+                                <figcaption className='left'>
+                                    React
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </li>
+                    <li className='px-3'>
+                        <div className='space'>
+                            <figure className='w-25'>
+                                <img className='figure-img roundImgSkill' id='reactIcon' src={graphqlIcon} alt='GraphQL Icon, a pink triangle inside a hexigon with circles at the virtices' />
+                                <figcaption className=''>
+                                    GraphQL
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </li>
+                    <li className='px-3'>
+                        <div className='space'>
+                            <figure className='w-25'>
+                                <img className='figure-img roundImgSkill' id='reactIcon' src={sqlIcon} alt='sqL Icon, a blue cylinder' />
+                                <figcaption className='padding'>
+                                    SQL
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </li>
+                    <li className='mongo'>
+                        <div className='space'>
+                            <figure className='w-25'>
+                                <img className='figure-img roundImgSkill' id='reactIcon' src={mongoDBIcon} alt='MongoDB Icon, a leaf' />
+                                <figcaption className='padding'>
+                                    MongoDB
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </li>
+                </ul>
+                <ul className='listCenter d-flex' style={{ listStyleType: 'none' }}>
+                    <li className='px-3'>
+                        <div className='space'>
+                            <figure className='w-25'>
+                                <img className='figure-img roundImgSkill' id='nodeIcon' src={nodeIcon} alt='Node Icon, a J and S inside a green hexagon' />
+                                <figcaption className='left'>
+                                    Node
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </li>
+                    <li className='px-3'>
+                        <div className='space'>
+                            <figure className='w-25'>
+                                <img className='figure-img roundImgSkill' id='reactIcon' src={htmlIcon} alt='HTML Icon, a red shield with a 5 in the center' />
+                                <figcaption className='left'>
+                                    HTML
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </li>
+                    <li className='px-3'>
+                        <div className='space'>
+                            <figure className='w-25'>
+                                <img className='figure-img roundImgSkill' id='reactIcon' src={cssIcon} alt='css Icon, a blue shield with a 3 in the center' />
+                                <figcaption className='left'>
+                                    CSS
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </li>
+                    <li className=''>
+                        <div className='space'>
+                            <figure className='w-25'>
+                                <img className='figure-img roundImgSkill' id='reactIcon' src={restIcon} alt='REST API Icon, a a cloud with a gear in it' />
+                                <figcaption className='rest'>
+                                    REST
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </li>
+                    <li className='python'>
+                        <div className='space'>
+                            <figure className='w-25'>
+                                <img className='figure-img roundImgSkill' id='reactIcon' src={pythonIcon} alt='Python Icon, a blue and yellow snake that form a plus' />
+                                <figcaption className='left'>
+                                    Python
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </>
     )
 }
