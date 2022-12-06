@@ -125,27 +125,6 @@ export default function Resume() {
                 Background and Experience
             </h3>
             <div className='education'>
-                <h5>Education</h5>
-                <div className='d-flex flex-wrap'>
-                    <h6 className='width50'>Northwestern University Full Stack Bootcamp</h6>
-                    <p className='width50'>
-                        January 2022 - July 2022
-                    </p>
-                    <p className='pb-3'>
-                        Full Stack Web Development Certificate
-                    </p>
-                </div>
-                <div className='d-flex flex-wrap'>
-                    <h6 className='width50'>Northwestern University</h6>
-                    <p className='width50'>
-                        September 2014 - June 2018
-                    </p>
-                    <p className='pb-3'>
-                        Bachelors of Science in Mechanical Engineering
-                    </p>
-                </div>
-            </div>
-            <div className='education'>
                 <h5>Experience</h5>
                 <div className='d-flex flex-wrap'>
                     <h6 className='width50'>Project Manager</h6>
@@ -166,6 +145,28 @@ export default function Resume() {
                     </p>
                 </div>
             </div>
+            <div className='education'>
+                <h5>Education</h5>
+                <div className='d-flex flex-wrap'>
+                    <h6 className='width50'>Northwestern University Full Stack Bootcamp</h6>
+                    <p className='width50'>
+                        January 2022 - July 2022
+                    </p>
+                    <p className='pb-3'>
+                        Full Stack Web Development Certificate
+                    </p>
+                </div>
+                <div className='d-flex flex-wrap'>
+                    <h6 className='width50'>Northwestern University</h6>
+                    <p className='width50'>
+                        September 2014 - June 2018
+                    </p>
+                    <p className='pb-3'>
+                        Bachelors of Science in Mechanical Engineering
+                    </p>
+                </div>
+            </div>
+            
         </>
     )
 }
